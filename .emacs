@@ -39,7 +39,7 @@
  '(c-default-style "linux")
  '(package-selected-packages
    (quote
-    (jdee racket-mode comment-dwim-2 zygospore zenburn-theme yasnippet ws-butler web-mode volatile-highlights undo-tree stickyfunc-enhance sr-speedbar smartparens php-mode multiple-cursors iedit helm-swoop helm-projectile helm-gtags google-c-style function-args flycheck-google-cpplint fill-column-indicator ess duplicate-thing dumb-jump dtrt-indent company-c-headers clean-aindent-mode anzu android-mode ag))))
+    (vlf jdee racket-mode comment-dwim-2 zygospore zenburn-theme yasnippet ws-butler web-mode volatile-highlights undo-tree stickyfunc-enhance sr-speedbar smartparens php-mode multiple-cursors iedit helm-swoop helm-projectile helm-gtags google-c-style function-args flycheck-google-cpplint fill-column-indicator ess duplicate-thing dumb-jump dtrt-indent company-c-headers clean-aindent-mode anzu android-mode ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
