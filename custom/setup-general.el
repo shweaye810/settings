@@ -45,9 +45,10 @@
                                  (call-interactively 'run)))
 (defun run()
   (interactive)
-  (shell-command (concat "./" (file-name-base buffer-file-name) ".out")))
-
-
+  (with-output-to-temp-buffer "*Shell Output*"
+    (shell-command (concat "./" (file-name-base buffer-file-name) ".out")
+                   "*Shell Output*"
+                   "*Shell Output*")))
 
 (global-set-key (kbd "<f5>") (lambda ()
                                (interactive)
